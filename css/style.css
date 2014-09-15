@@ -46,23 +46,73 @@
 	text-align: center;
 	margin-top: -10px;
 }
-input{
+.search input{
 	padding: 10px;
 	border: 1px solid #e2e2e2;
 	font-size: 15px;
 	font-style: italic;
 	color: #aaa;
 	outline: none;
-
+	margin-top: 0;
 }
-#search-button{
+#logo .search input[type="submit"]{
 	background-color: transparent;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-image: url(images/search.png) no-repeat;
+	background-image: url(images/search.png);
+	content: '';
 	height: 34px;
 	width: 34px;
-	right: 0;
-	top: 0;
-	border: 0;
+	right: 0px;
+	top: 0px;
+	border: 0px;
+}
+#mid .mid1 img{
+	width: 100%;
+}
+
+#h2 {
+	padding-top: 100px;
+	text-align: center;
+}
+#h2 .imgcover img{
+	text-align: center;
+	width: 400px;
+	margin-top: -20px;
+}
+.cl1:before{
+	content: "\f040";
+}
+.cl2:before{
+	content: "\f0a1"
+}
+.cl3:before{
+	content: "\f0f3"
+}
+.cl4:before{
+	content: "\f004";
+}
+.icon1 i{
+	border-radius: 50%;
+	border: 20px solid #f78e21;
+	color: #f78e21;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 100px;
+	width: 100px;
+	height: 100px;
+}
+.clone1{
+	display: inline-block;
+}
+#icon .div-icon{
+	padding-top: 0px;
+	width: 1170px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.div-icon .div-icon1{
+	margin-top: 40px;
+	width: 24%;
+	float: left;
+	padding-right: 10px;
 }
