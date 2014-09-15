@@ -1,4 +1,68 @@
 #top{
 	background-color: #333;
-	color: #fff
+	color: #fff;
+	margin-top: -10px;
+	width: 100%;
+}
+.container{
+	width: 1170px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container1 a{
+	position: relative;
+	margin-right: 15px;
+	font-size: 15px;
+	color: #f78e21;
+	text-decoration: none;
+}
+.container1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.logo1{
+	width: 30%;
+	float: left;
+	padding-top: 20px;
+}
+.menu li{
+	list-style: none;
+	padding-left: 15px;
+	float: left;
+
+
+}
+.menu li a{
+	text-decoration: none;
+	color: #f78e21;
+}
+.menu{
+	text-align: center;
+	padding-top: 20px;
+}
+.search{
+	text-align: center;
+	margin-top: -10px;
+}
+input{
+	padding: 10px;
+	border: 1px solid #e2e2e2;
+	font-size: 15px;
+	font-style: italic;
+	color: #aaa;
+	outline: none;
+
+}
+#search-button{
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(images/search.png) no-repeat;
+	height: 34px;
+	width: 34px;
+	right: 0;
+	top: 0;
+	border: 0;
 }
