@@ -25,7 +25,6 @@ function myfunction () {
 		return false;
 	}
 }
-
 function myfunction1 (x){
 	x.style.visibility = "visible";
 }
