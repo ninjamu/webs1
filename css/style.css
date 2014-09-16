@@ -218,6 +218,7 @@ a:visited{
 }
 footer{
 	border-top: solid #f78e21;
+	height: 250px;
 }
 .colfooter li{
 	list-style: armenian;
@@ -304,6 +305,7 @@ footer{
 	position: absolute;
 	bottom: 0px;
 	background-color: rgba(0,0,0,0.7);
+	visibility: hidden;
 }
 .caption h4{
 	padding-top: 80px;
@@ -418,4 +420,8 @@ footer{
 }
 .boxtext i{
 	color: #f78e21;
+}
+.day{
+	width: 100%;
+	text-align: center;
 }

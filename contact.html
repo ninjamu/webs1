@@ -2,6 +2,7 @@
 <head>
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 	<header>
@@ -63,7 +64,7 @@
 			<div class="rowms">
 				<div class="colms">
 					<div class="boxms">
-					<form id="forms" action="#" method="post" class="send-message">
+					<form name="forms1" id="forms" action="#" method="post" class="send-message" onsubmit="return myfunction()">
 						<div class="acc">
 							<div class="tt">
 								<input type="text" name="name" class="name" placeholder="Name">
@@ -183,5 +184,10 @@
 			</div>
 		</div>
 	</footer>
+	<div class="day">
+			<p id="date"></p>
+		<script type="text/javascript" src="js/main.js"></script>
+	</div>
+	
 </body>
 </html>
