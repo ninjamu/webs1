@@ -305,7 +305,6 @@ footer{
 	position: absolute;
 	bottom: 0px;
 	background-color: rgba(0,0,0,0.7);
-	visibility: hidden;
 }
 .caption h4{
 	padding-top: 80px;
