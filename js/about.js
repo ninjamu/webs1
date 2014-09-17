@@ -1,6 +1,6 @@
 $(document).ready(function(){
-	$("div.overlay-show").hover(
+	$("div.thumb").hover(
 		function(){
-			$(this).find("div.overlay").slideToggle("fast");
+			$(this).find("div.overlay").fadeToggle("fast");
 		})
 })
